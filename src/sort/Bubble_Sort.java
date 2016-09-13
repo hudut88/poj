@@ -9,7 +9,7 @@ import java.util.Arrays;
 public class Bubble_sort {
 
 	public static void main(String[] args) {
-		Integer[] aInteger = {2,4,1,3,1,3,7,5,6};
+		Integer[] aInteger = {1,0,8,2,4,1,3,1,3,7,5,6};
 		sort(aInteger);
 		System.out.println(Arrays.toString(aInteger));
 	}
