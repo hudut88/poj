@@ -9,13 +9,13 @@ import java.util.Arrays;
 public class Selection_sort {
 
 	public static void main(String[] args) {
-		Integer[] aInteger = {4,1,3,1,3,7,9,10,8,12,3,5,6};
-		Selection_sort(aInteger);
+		Integer[] aInteger = {2,4,1,3,1,3,7,9,10,8,12,3,5,6};
+		sort(aInteger);
 		System.out.println(Arrays.toString(aInteger));
 
 	}
 
-	public static void Selection_sort(Integer[] intArr) {
+	public static void sort(Integer[] intArr) {
 		int swap_idx = 0;
 		for (int i = 0; i < intArr.length; i++) {
 			swap_idx = i;

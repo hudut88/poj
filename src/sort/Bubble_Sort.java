@@ -9,12 +9,12 @@ import java.util.Arrays;
 public class Bubble_sort {
 
 	public static void main(String[] args) {
-		Integer[] aInteger = {4,1,3,1,3,7,5,6};
-		Bubble_Sort(aInteger);
+		Integer[] aInteger = {2,4,1,3,1,3,7,5,6};
+		sort(aInteger);
 		System.out.println(Arrays.toString(aInteger));
 	}
 
-	public static void Bubble_Sort(Integer[] intArr){
+	public static void sort(Integer[] intArr){
 		int length = intArr.length;
 		for (int i = 0; i < length; i++) {
 			for (int j = 0; j < (length - i -1); j++) {

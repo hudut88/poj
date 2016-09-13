@@ -11,26 +11,26 @@ public class Merge_sort {
 	public static int nixuNum = 0;
 	public static void main(String[] args) {
 		char[] IntArr = {3,6,1,2,5,4};
-		mergeSort(IntArr , 0  , IntArr.length -1);
+		sort(IntArr , 0  , IntArr.length -1);
 		System.out.println(Arrays.toString(IntArr));
 		System.out.println(nixuNum);
 	}
 	//归并排序
-	public static int mergeSort(char[] IntArr){
+	public static int sort(char[] IntArr){
 		nixuNum = 0;
-		mergeSort(IntArr, 0, IntArr.length-1);
+		sort(IntArr, 0, IntArr.length-1);
 		System.out.println(Arrays.toString(IntArr));
 		return nixuNum;
 	}
 	//二路归并
-	private static char[] mergeSort(char[] IntArr, int bgn, int end) {
+	private static char[] sort(char[] IntArr, int bgn, int end) {
 		int middle = (bgn + end )/2;
 		if (bgn < end) {
 			if (middle > bgn) {
-				mergeSort(IntArr , bgn , middle);
+				sort(IntArr , bgn , middle);
 			}
 			if (end > middle + 1) {
-				mergeSort(IntArr , middle + 1 , end);
+				sort(IntArr , middle + 1 , end);
 			}
 			merge(IntArr , bgn ,middle, end);
 		}
