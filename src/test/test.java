@@ -1,14 +1,6 @@
 package test;
 
-import java.util.Arrays;
-
-import sort.Bubble_sort;
-import sort.Insertion_sort;
-import sort.Merge_sort;
-import sort.Quick_sort;
-import sort.Selection_sort;
-import sort.Shell_sort;
-import sort.SortUtil;
+import sort.*;
 
 public class test {
 
@@ -37,6 +29,19 @@ public class test {
 		bgnTime = System.currentTimeMillis();
 		System.err.println("bgn time:"+ bgnTime);
 		Merge_sort.sort(copyArr);
+		endTime = System.currentTimeMillis();
+		System.err.println("end time:"+ endTime);
+		System.out.println("用时：" + (endTime - bgnTime));
+		System.out.println("end:"+SortUtil.isRightOrder(copyArr));
+		Thread.sleep(1000);
+		
+		System.out.println("\n*********************************");
+		System.out.println("堆排序：");
+		copyArr = intArr.clone();
+		System.out.println("before:"+SortUtil.isRightOrder(copyArr));
+		bgnTime = System.currentTimeMillis();
+		System.err.println("bgn time:"+ bgnTime);
+		Heap_sort.sort(copyArr);
 		endTime = System.currentTimeMillis();
 		System.err.println("end time:"+ endTime);
 		System.out.println("用时：" + (endTime - bgnTime));
