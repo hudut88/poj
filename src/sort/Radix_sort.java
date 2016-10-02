@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 /**
- * »ùÊıÅÅĞò
+ * åŸºæ•°æ’åº
  * @author ypf
  *
  */
@@ -20,9 +20,9 @@ public class Radix_sort {
 	public static void sort(int[] intArr){
 		int radix = 10;
 		int length = intArr.length;
-		int 
+		//int 
 		for (int i = 0; i < length; i++) {
-			intArr[i] / radix;
+			//intArr[i] / radix;
 		}
 	}
 

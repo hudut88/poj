@@ -2,7 +2,7 @@ package sort;
 
 import java.util.Arrays;
 /**
- * 插入排序
+ * 鎻掑叆鎺掑簭
  * @author ypf
  *
  */
@@ -19,7 +19,7 @@ public class Insertion_sort {
 	}
 
 	/**
-	 * 直接插入排序
+	 * 鐩存帴鎻掑叆鎺掑簭
 	 * @param intArr
 	 * @param end_idx
 	 * @param j
@@ -38,7 +38,7 @@ public class Insertion_sort {
 	}
 	
 	/**
-	 * 折半插入排序
+	 * 鎶樺崐鎻掑叆鎺掑簭
 	 * @param intArr
 	 */
 	public static void binary_insertion_sort(int[] intArr) {
@@ -52,7 +52,7 @@ public class Insertion_sort {
 	}
 
 	/**
-	 * 折半查找插入位置
+	 * 鎶樺崐鏌ユ壘鎻掑叆浣嶇疆
 	 * @param intArr
 	 * @param bgn
 	 * @param end
@@ -73,7 +73,7 @@ public class Insertion_sort {
 	}
 
 	/**
-	 * 插入操作
+	 * 鎻掑叆鎿嶄綔
 	 * @param intArr
 	 * @param end_idx
 	 * @param j

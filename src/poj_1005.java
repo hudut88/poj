@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 /**
- * 数学题，先写公式
+ * 鏁板棰橈紝鍏堝啓鍏紡
  * @author ypf
  *
  */

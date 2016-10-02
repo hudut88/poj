@@ -10,7 +10,7 @@ public class test {
 		long bgnTime ;
 		long endTime;
 		
-		System.out.println("¿ìËÙÅÅĞò£º");
+		System.out.println("å¿«é€Ÿæ’åºï¼š");
 		copyArr = intArr.clone();
 		System.out.println("before:"+SortUtil.isRightOrder(copyArr));
 		bgnTime = System.currentTimeMillis();
@@ -18,12 +18,12 @@ public class test {
 		Quick_sort.sort(copyArr);
 		endTime = System.currentTimeMillis();
 		System.err.println("end time:"+ endTime);
-		System.out.println("ÓÃÊ±£º" + (endTime - bgnTime));
+		System.out.println("ç”¨æ—¶ï¼š" + (endTime - bgnTime));
 		System.out.println("end:"+SortUtil.isRightOrder(copyArr));
 		Thread.sleep(1000);
 		
 		System.out.println("\n*********************************");
-		System.out.println("¹é²¢ÅÅĞò£º");
+		System.out.println("å½’å¹¶æ’åºï¼š");
 		copyArr = intArr.clone();
 		System.out.println("before:"+SortUtil.isRightOrder(copyArr));
 		bgnTime = System.currentTimeMillis();
@@ -31,12 +31,12 @@ public class test {
 		Merge_sort.sort(copyArr);
 		endTime = System.currentTimeMillis();
 		System.err.println("end time:"+ endTime);
-		System.out.println("ÓÃÊ±£º" + (endTime - bgnTime));
+		System.out.println("ç”¨æ—¶ï¼š" + (endTime - bgnTime));
 		System.out.println("end:"+SortUtil.isRightOrder(copyArr));
 		Thread.sleep(1000);
 		
 		System.out.println("\n*********************************");
-		System.out.println("¶ÑÅÅĞò£º");
+		System.out.println("å †æ’åºï¼š");
 		copyArr = intArr.clone();
 		System.out.println("before:"+SortUtil.isRightOrder(copyArr));
 		bgnTime = System.currentTimeMillis();
@@ -44,24 +44,24 @@ public class test {
 		Heap_sort.sort(copyArr);
 		endTime = System.currentTimeMillis();
 		System.err.println("end time:"+ endTime);
-		System.out.println("ÓÃÊ±£º" + (endTime - bgnTime));
+		System.out.println("ç”¨æ—¶ï¼š" + (endTime - bgnTime));
 		System.out.println("end:"+SortUtil.isRightOrder(copyArr));
 		Thread.sleep(1000);
 		
 		System.out.println("\n*********************************");
-		System.out.println("ÕÛ°ë²åÈëÅÅĞò£º");
+		System.out.println("æŠ˜åŠæ’å…¥æ’åºï¼š");
 		copyArr = intArr.clone();
 		bgnTime = System.currentTimeMillis();
 		System.err.println("bgn time:"+ bgnTime);
 		Insertion_sort.binary_insertion_sort(copyArr);
 		endTime = System.currentTimeMillis();
 		System.err.println("end time:"+ endTime);
-		System.out.println("ÓÃÊ±£º" + (endTime - bgnTime));
+		System.out.println("ç”¨æ—¶ï¼š" + (endTime - bgnTime));
 		System.out.println("end:"+SortUtil.isRightOrder(copyArr));
 		Thread.sleep(1000);
 		
 		System.out.println("\n*********************************");
-		System.out.println("Ö±½Ó²åÈëÅÅĞò£º");
+		System.out.println("ç›´æ¥æ’å…¥æ’åºï¼š");
 		copyArr = intArr.clone();
 		System.out.println("before:"+SortUtil.isRightOrder(copyArr));
 		bgnTime = System.currentTimeMillis();
@@ -69,12 +69,12 @@ public class test {
 		Insertion_sort.straight_insertion_sort(copyArr);
 		endTime = System.currentTimeMillis();
 		System.err.println("end time:"+ endTime);
-		System.out.println("ÓÃÊ±£º" + (endTime - bgnTime));
+		System.out.println("ç”¨æ—¶ï¼š" + (endTime - bgnTime));
 		System.out.println("end:"+SortUtil.isRightOrder(copyArr));
 		Thread.sleep(1000);
 		
 		System.out.println("\n*********************************");
-		System.out.println("Ã°ÅİÅÅĞò£º");
+		System.out.println("å†’æ³¡æ’åºï¼š");
 		copyArr = intArr.clone();
 		System.out.println("before:"+SortUtil.isRightOrder(copyArr));
 		bgnTime = System.currentTimeMillis();
@@ -82,12 +82,12 @@ public class test {
 		Bubble_sort.sort(copyArr);
 		endTime = System.currentTimeMillis();
 		System.err.println("end time:"+ endTime);
-		System.out.println("ÓÃÊ±£º" + (endTime - bgnTime));
+		System.out.println("ç”¨æ—¶ï¼š" + (endTime - bgnTime));
 		System.out.println("end:"+SortUtil.isRightOrder(copyArr));
 		Thread.sleep(1000);
 		
 		System.out.println("\n*********************************");
-		System.out.println("Ñ¡ÔñÅÅĞò£º");
+		System.out.println("é€‰æ‹©æ’åºï¼š");
 		copyArr = intArr.clone();
 		System.out.println("before:"+SortUtil.isRightOrder(copyArr));
 		bgnTime = System.currentTimeMillis();
@@ -95,12 +95,12 @@ public class test {
 		Selection_sort.sort(copyArr);
 		endTime = System.currentTimeMillis();
 		System.err.println("end time:"+ endTime);
-		System.out.println("ÓÃÊ±£º" + (endTime - bgnTime));
+		System.out.println("ç”¨æ—¶ï¼š" + (endTime - bgnTime));
 		System.out.println("end:"+SortUtil.isRightOrder(copyArr));
 		Thread.sleep(1000);
 		
 		System.out.println("\n*********************************");
-		System.out.println("Ï£¶ûÅÅĞò£º");
+		System.out.println("å¸Œå°”æ’åºï¼š");
 		copyArr = intArr.clone();
 		System.out.println("before:"+SortUtil.isRightOrder(copyArr));
 		bgnTime = System.currentTimeMillis();
@@ -108,7 +108,7 @@ public class test {
 		Shell_sort.sort(copyArr);
 		endTime = System.currentTimeMillis();
 		System.err.println("end time:"+ endTime);
-		System.out.println("ÓÃÊ±£º" + (endTime - bgnTime));
+		System.out.println("ç”¨æ—¶ï¼š" + (endTime - bgnTime));
 		System.out.println("end:"+SortUtil.isRightOrder(copyArr));
 		Thread.sleep(1000);
 	}

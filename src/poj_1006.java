@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 /**
- * 中国剩余定理
+ * 涓浗鍓╀綑瀹氱悊
  * @author ypf
  *
  */
@@ -17,14 +17,14 @@ public class poj_1006 {
             if(x == -1 && y == -1 && z == -1){
             	break;
             }
-            //中国剩余定理
+            //锟叫癸拷剩锟洁定锟斤拷
             int days = (5544 * x + 14421 * y + 1288 * z - d) % (21252);
             if (days <= 0) {
                 days = 23 * 28 * 33 + days;
             }
             System.out.println("Case "+ count++ +": the next triple peak occurs in "
 					+days + " days.");
-            //暴力破解
+            //锟斤拷锟斤拷锟狡斤拷
 //            x = x % 23;
 //            y = y % 28;
 //            z = z % 33;

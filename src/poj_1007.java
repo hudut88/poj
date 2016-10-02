@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 /**
- * ÄæĞòÊı/¹é²¢ÅÅĞò
+ * å½’å¹¶æ•°ï¼å½’å¹¶æ’åº
  * @author ypf
  *
  */
@@ -15,8 +15,8 @@ public class poj_1007 {
 		String str;
 	}
 	static class NodeComparator implements Comparator {  
-        public int compare(Object object1, Object object2) {// ÊµÏÖ½Ó¿ÚÖĞµÄ·½·¨  
-        	Node n1 = (Node) object1; // Ç¿ÖÆ×ª»»  
+        public int compare(Object object1, Object object2) {
+        	Node n1 = (Node) object1;
         	Node n2 = (Node) object2;  
             return n1.num - n2.num;  
         }  
@@ -31,7 +31,7 @@ public class poj_1007 {
         for (int i = 0; i < num; i++) {
 			String str = cin.next();
 			strArr = str.toCharArray();
-			//±©Á¦ÆÆ½â
+			//æš´åŠ›ç ´è§£
 //			for (int j = 0; j < strArr.length; j++) {
 //				for(int k = j+1 ; k < strArr.length; k++){
 //					if (strArr[j] > strArr[k]) {
@@ -39,7 +39,7 @@ public class poj_1007 {
 //					}
 //				}
 //			}
-			//¹é²¢ÅÅĞòÇóÄæĞòÊı
+			//å½’å¹¶æ’åº æ±‚é€†åºæ•°
 			count = Merge_sort.mergeSort(strArr);
 			Node node= new Node(count,str);
 			
@@ -55,16 +55,16 @@ public class poj_1007 {
 }
 
 class Merge_sort {
-	//ÄæĞòÊı
+	//é€†åºæ•°
 	public static int nixuNum = 0;
-	//¹é²¢ÅÅĞò
+	//å½’å¹¶æ’åº
 	public static int mergeSort(char[] IntArr){
 		nixuNum = 0;
 		mergeSort(IntArr, 0, IntArr.length-1);
 		//System.out.println(Arrays.toString(IntArr));
 		return nixuNum;
 	}
-	//¶şÂ·¹é²¢
+	//äºŒè·¯å½’å¹¶
 	private static char[] mergeSort(char[] IntArr, int bgn, int end) {
 		int middle = (bgn + end )/2;
 		if (bgn < end) {

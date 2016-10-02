@@ -11,8 +11,8 @@ public class SortUtil {
 	}
 	
 	/**
-	 * ¼ì²éÊı×éÊÇ·ñÓĞĞò
-	 * @param intArr Êı×é
+	 * æ£€æŸ¥æ•°ç»„æ˜¯å¦æœ‰åº
+	 * @param intArr æ•°ç»„
 	 * @return
 	 */
 	public static boolean isRightOrder(int[] intArr){
@@ -25,8 +25,8 @@ public class SortUtil {
 	}
 	
 	/**
-	 * »ñÈ¡ÖÆ¶¨³¤¶ÈµÄÊı×é£¨100ÒÔÄÚËæ»úÊı£©
-	 * @param size Êı×é³¤¶È
+	 * è·å–æŒ‡å®šé•¿åº¦çš„æ•°ç»„ï¼ˆ100ä»¥å†…éšæœºæ•°ï¼‰
+	 * @param size æ•°ç»„é•¿åº¦
 	 * @return
 	 */
 	public static int[] getRanDomIntegersArrays(Integer size){
@@ -39,9 +39,9 @@ public class SortUtil {
 	}
 	
 	/**
-	 * »ñÈ¡ÖÆ¶¨³¤¶ÈµÄÊı×é ÇÒÖÆ¶¨Ëæ»úÊı·¶Î§
-	 * @param size Êı×é³¤¶È
-	 * @param range Ëæ»úÊı·¶Î§
+	 * è·å–æŒ‡å®šé•¿åº¦çš„æ•°ç»„ ä¸”æŒ‡å®šéšæœºæ•°èŒƒå›´
+	 * @param size æ•°ç»„é•¿åº¦
+	 * @param range éšæœºæ•°èŒƒå›´
 	 * @return
 	 */
 	public static int[] getRanDomIntegersArrays(Integer size , Integer range){

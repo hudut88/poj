@@ -2,7 +2,7 @@ package sort;
 
 import java.util.Arrays;
 /**
- * ц╟ещеепР
+ * Е├▓ФЁ║Ф▌▓Е╨▐
  * @author ypf
  *
  */

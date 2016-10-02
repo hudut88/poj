@@ -1,12 +1,12 @@
 package sort;
 import java.util.Arrays;
 /**
- * ¹é²¢ÅÅĞò
+ * å½’å¹¶æ’åº
  * @author ypf
  *
  */
 public class Merge_sort {
-	//ÄæĞòÊı
+	//é€†åºæ•°
 	public static int nixuNum = 0;
 	public static void main(String[] args) {
 		int[] IntArr = {3,6,1,2,5,4};
@@ -14,14 +14,14 @@ public class Merge_sort {
 		System.out.println(Arrays.toString(IntArr));
 		System.out.println(nixuNum);
 	}
-	//¹é²¢ÅÅĞò
+	//å½’å¹¶æ’åº
 	public static int sort(int[] IntArr){
 		nixuNum = 0;
 		sort(IntArr, 0, IntArr.length-1);
 		//System.out.println(Arrays.toString(IntArr));
 		return nixuNum;
 	}
-	//¶şÂ·¹é²¢
+	//äºŒè·¯å½’å¹¶
 	private static int[] sort(int[] IntArr, int bgn, int end) {
 		int middle = (bgn + end )/2;
 		if (bgn < end) {
@@ -35,7 +35,7 @@ public class Merge_sort {
 		}
 		return IntArr;
 	}
-	//ºÏ²¢Á½¸öÇø¼ä
+	//åˆå¹¶ä¸¤ä¸ªåŒºé—´
 	private static void merge(int[] IntArr, int bgn, int middle, int end) {
 		int[] temArr = new int[end - bgn + 1];
 		int i = bgn;

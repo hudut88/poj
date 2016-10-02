@@ -2,7 +2,7 @@ package sort;
 
 import java.util.Arrays;
 /**
- * Ï£¶ûÅÅĞò
+ * å¸Œå°”æ’åº
  * @author ypf
  *
  */
@@ -16,7 +16,7 @@ public class Shell_sort {
 	}
 	
 	/**
-	 * Ï£¶ûÅÅĞò
+	 * å¸Œå°”æ’åº
 	 * @param arr
 	 */
 	public static void sort(int[] arr) {
